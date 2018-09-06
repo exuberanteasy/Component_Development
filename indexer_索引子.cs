@@ -46,3 +46,22 @@ namespace MsitBookClassLibrary1
     }
 
 }
+
+
+//=================================================================
+//這樣試試看
+public string this [int wp]
+{
+    get
+    {
+        string answer = null;
+        if(wp >= 1 && wp <= Number)  //加一個 if 保護一下
+        {
+            answer = pages[wp - 1];
+        }  //加這行
+        return answer;
+    }
+}
+
+
+
