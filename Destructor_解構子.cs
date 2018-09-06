@@ -1,6 +1,6 @@
 //解構子  Destructor
 
-class MyPS{
+class MyPS {
     ~MyPS() /* 解構子 */{
         // 釋放資源
     }
