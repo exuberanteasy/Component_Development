@@ -42,3 +42,31 @@ namespace m2_pp_27_IDisposable
     }
     
 }
+
+//=============================================================================
+
+using System;
+namespace m2_pp_25_destructor
+{
+    class MyPC
+    {
+
+        static void Main()
+        {
+            MyPC p = new MyPC();
+            // p = null;
+            Console.WriteLine("p = null;");
+            GC.GetTotalMemory(true);
+           
+            Console.WriteLine("以上");
+            Console.WriteLine();
+            Console.WriteLine();
+        }
+        // fix #1 觀察下面為解構子
+        ~MyPC()
+        {
+            Console.WriteLine("解構子");
+        }
+    }
+}
+
