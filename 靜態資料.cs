@@ -48,3 +48,11 @@ namespace m2_pp_29_static_data_and_static_method
         public double Balance;
     }
 }
+
+
+//========================================================
+※物件方法裡可以直接呼叫物件方法，但靜態方法裡不能呼叫物件方法。
+
+
+
+
