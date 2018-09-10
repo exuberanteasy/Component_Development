@@ -50,3 +50,14 @@ namespace m2_pp_40_ploymorphism_by_virtual
 
 
 //===========================================================================
+  =>  m2_pp_40_ploymorphism_by_virtual
+  *改用 virtual 抽象方法
+  
+  
+  
+  
+  
+  
+  
+  
+  
