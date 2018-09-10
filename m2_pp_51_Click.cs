@@ -7,3 +7,7 @@
 
 event - driven
 事件驅動
+
+
+delegate (C# 參考)
+https://docs.microsoft.com/zh-tw/dotnet/csharp/language-reference/keywords/delegate
